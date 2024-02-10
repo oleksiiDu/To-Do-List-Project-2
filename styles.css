@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #69092D;
+    overflow: hidden;
+}
+
+.circle-blue {
+    width: 960px;
+    height: 960px;
+    background-color: #002244;
+    border-radius: 50%;
+    filter: blur(300px);
+    position: absolute;
+    top: -50px;
+    left: -480px;
+}
+
+.circle-yellow {
+    width: 960px;
+    height: 960px;
+    background-color: #FFAB6E;
+    border-radius: 50%;
+    filter: blur(300px);
+    position: absolute;
+    right: -300px;
+    bottom: -550px;
+}
